@@ -18,6 +18,7 @@ This project require following ilbraries and tools:
 * teptonica-1.70
 * java 1.7.0_51
 * eclipse Kepler Service Release 2
+* android 4.1
 
 ## Installation
 ___________
