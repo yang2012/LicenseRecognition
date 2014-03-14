@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">车牌识别</string>
+    <string name="action_settings">设置</string>
+    <string name="title_section1">车牌上传</string>
+    <string name="title_section2">识别结果</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="pick_photo">拍照或从图库选择车牌</string>
+    <string name="text_description">描述</string>
+    <string name="more_result">更多结果</string>
+    <string name="some_attribute">某个属性</string>
+    <string name="some_content">一些内容</string>
+</resources>

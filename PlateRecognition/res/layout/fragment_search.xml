@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/picked_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/normal_margin"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/normal_margin"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_pick_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:onClick="onPickPhotoClick"
+            android:text="@string/pick_photo" />
+  <!--  android:background="@drawable/btn_style_alert_dialog_button" -->
+        <RelativeLayout
+            android:id="@+id/layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/normal_margin"
+                android:onClick="onConfirmClick"
+                android:text="@string/confirm" />
+            <!-- android:background="@drawable/btn_style_alert_dialog_button" -->
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/normal_margin"
+                android:onClick="onCancelClick"
+                android:text="@string/cancel" />
+            <!-- android:background="@drawable/btn_style_alert_dialog_cancel" -->
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
